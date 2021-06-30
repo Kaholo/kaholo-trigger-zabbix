@@ -5,7 +5,7 @@
   "main": "app.js",
   "exposeRoute": true,
   "imgUrl": "zabbix.png",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Handle zabbix webhooks request",
   "methods": [{
     "name": "webhook",
@@ -22,7 +22,6 @@
         "viewName": "Severity Level",
         "type": "string"
       }
-    ],
-    "actionString": "REPO_URL BRANCH SECRET"
+    ]
   }]
 }
